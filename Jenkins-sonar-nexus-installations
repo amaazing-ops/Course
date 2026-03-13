@@ -10,7 +10,7 @@ wget https://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3
 sudo mkdir -p /usr/local/apache-maven
 sudo mv apache-maven-3.3.9-bin.tar.gz /usr/local/apache-maven
 cd /usr/local/apache-maven
-sudo tar -xzvf apache-maven-3.3.9-bin.tar.gz
+sudo tar -xvf apache-maven-3.3.9-bin.tar.gz
 Once this is done add to you environment variables by editing .bashrc:
 nano ~/.bashrc
 
